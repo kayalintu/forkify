@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode prodiction",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayalintu/forkify.git"
+  },
+  "author": "kaya.lintu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayalintu/forkify/issues"
+  },
+  "homepage": "https://github.com/kayalintu/forkify#readme",
+  "devDependencies": {
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
